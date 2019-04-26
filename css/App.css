@@ -1,0 +1,313 @@
+* {
+  font-family: Nunito, sans-serif;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  color:black;
+  opacity:1.95;
+}
+
+
+
+nav {
+  background-color: white;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  position:fixed;
+  left:0px;
+  top:0px;
+  right:0px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  z-index: 1000;
+  
+}
+
+.titleICO {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: Black;
+  opacity: 1.9;
+}
+
+.titleICO > i {
+  margin-right: 3px;
+  font-size: 40px;
+}
+
+.titleICO > div {
+  font-size:20px;
+}
+
+.rightNav {
+  margin:0px;
+  display:flex;
+  align-items: center;
+}
+
+.rightNav > .material-icons {
+  font-size:60px;
+  margin-right:2px;
+  opacity:0.8;
+}
+
+.myAccountBox > .address, .eth, .zentatoken {
+  font-size:11px;
+}
+
+.container {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #39f, #339);
+  padding-bottom: 25px;
+}
+
+.containerMiddle {
+  width:1000px;
+  margin: 0px auto;
+  color: white;
+  padding-top:70px;
+}
+
+.header1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color:black;
+}
+
+.flex {
+  display: flex;
+}
+
+.movieContainer {
+  width: 500px;
+  padding-bottom:40px;
+}
+
+.buttonContainer > div{
+  margin-top: 20px;
+}
+
+.textArea {
+  font-size: 18px;
+  
+}
+
+
+
+
+/* CSS Code for Start Page */
+.space-around {
+  justify-content: space-around;
+}
+.space-between {
+  justify-content: space-between;
+}
+.tokenSaleContainer {
+	 width: 1000px;
+	 background-color: white;
+   box-shadow: 0 8px 8px rgba(0,0,0,.5);
+   margin: 0 auto;
+   margin-top: -45px;
+   position: relative;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   top: 50px;
+}
+.tokenSaleLeftSide {
+  width: 500px;
+  border-right: 1px solid #D9E5F4;
+  height: 100%;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 30px;
+}
+.tokensSold, .Buyer {
+  font-size:20px;
+  color:black;
+  opacity:0.87;
+}
+.totalSuppy {
+ margin-top: 15px;
+ margin-bottom: 15px;
+ font-size:20px;
+ color:black;
+ opacity:0.87;
+}
+.titleTokenSale {
+  font-size: 20px;
+  font-weight: bold;
+  color:black;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.87;
+}
+.tokenSaleEnds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-size: 15px;
+  opacity: 2.87;
+  margin-top: 10px;
+}
+.time {
+  margin-top: 20px;
+}
+.time > div {
+  color: black;
+}
+.headerTime {
+  color: #E37414;
+  font-weight: bold;
+  font-size: 25px;
+  opacity: 2.87;
+}
+.Icons {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.Icons i {
+  font-size: 35px;
+  color: black;
+  opacity: 2.87;
+}
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+/* CSS Code for About Page */
+.whatIs , .roadmap, .BuyZenta, .home {
+  display: flex;
+  style:left justify;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 30px;
+  color: black;
+  opacity: 0.87;
+  margin-top:70px;
+  margin-bottom:10px;
+}
+.textAreaWhatIs {
+  width: 550px;
+  margin: 0 auto;
+  margin-top:5px;
+  style:justify;
+  text-align:justify;
+  color:black;
+}
+.whatIsHeader  {
+  font-size:20px;
+  color: black;
+  opacity:0.87;
+  font-weight:bold;
+  margin-bottom:10px;
+  margin-top:20px;
+  text-justify: inter-word;
+  text-align:justify;
+}
+
+
+/*CSS Code for Contributer Page */
+.BuyZentaContainer {
+  width: 650px;
+  margin: 0 auto;
+  border: 1px solid #CACACA;
+  margin-bottom: 10px;
+  margin-top:10px;
+  padding:20px;
+  color:black;
+}
+.buyCoins {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amountToBuy {
+  font-weight:auto;
+  color:black;
+  opacity: 2.87;
+  font-size:17px;
+  margin-right:10px;
+}
+.etherDC {
+  margin-left:4px;
+  color:black;
+  opacity:2.87;
+}
+.successfully {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size:15px;
+  width: 300px;
+  margin: 0 auto;
+  background-color:#43A047;
+  margin-top: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.buttonBuy {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:25px;
+  margin-bottom: 25px;
+  
+}
+.errorMessage {
+  width: 300px;
+  margin: 0 auto;
+  background-color:#D32E30;
+  margin-top: 30px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.errorMessage > i {
+  margin-right: 10px;
+  font-size: 15px;
+}
+.loadingText {
+  font-size:15px;
+  color:black;
+  opacity:2.87;
+  font-weight: bold;
+}
+.loadTextSub {
+  font-size:11px;
+  color:black;
+  opacity:2.77;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.loadingContainer > div {
+  margin-right: 25px;
+}

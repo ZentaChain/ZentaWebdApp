@@ -1,0 +1,32 @@
+{
+  "name": "ico-zenta",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "align-text": "^1.0.2",
+    "create-react-app": "^3.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.6.3",
+    "react-infinite-scroll-component": "^4.5.2",
+    "react-native": "^0.59.5",
+    "react-scripts": "2.1.1",
+    "react-scroll-to-component": "^1.0.2",
+    "video-react": "^0.13.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

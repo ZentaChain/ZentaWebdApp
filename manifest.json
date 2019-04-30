@@ -1,0 +1,15 @@
+{
+    "short_name": "Zenta",
+    "name": "Zenta sale",
+    "favicon": [{
+            "src": "/images/favicon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/images/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    

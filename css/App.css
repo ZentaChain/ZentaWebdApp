@@ -1,0 +1,408 @@
+* {
+  font-family: Nunito, sans-serif;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  color:black;
+  opacity:1.95;
+}
+
+
+
+nav {
+  background-color: rgb(255, 255, 255);
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  position:fixed;
+  left:0px;
+  top:0px;
+  right:0px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  z-index: 1000;
+  justify-content: space;
+  
+  
+}
+.Whitepaper, .Home, .About {
+	display: inline-block;
+	padding: 10px 10px;
+	font-size: 0,5em;
+	color:white;
+	margin-top: 5px;
+  font-family: 'liberty'; 
+
+}
+
+.zentalogo img {
+  height: 60px
+}
+
+
+.titleICO {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+  opacity: 1.9;
+  
+}
+
+.titleICO > i {
+  margin-right: 3px;
+  font-size: 40px;
+  
+}
+
+.titleICO > div {
+  font-size:20px;
+}
+
+.rightNav {
+  margin:0px;
+  display:flex;
+  align-items: center;
+}
+
+.rightNav > .material-icons {
+  font-size:60px;
+  margin-right:2px;
+  opacity:1.8;
+  color:gray;
+}
+
+.myAccountBox > .address, .eth, .zentatoken, {
+  font-size:12px;
+  font-family: 'liberty';
+}
+
+.container {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgb(255, 115, 0), rgb(122, 17, 122));
+  padding-bottom: 25px;
+}
+
+.containerMiddle {
+  width:1000px;
+  margin: 0px auto;
+  color: rgb(255, 255, 255);
+  padding-top:70px;
+}
+
+.header1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color:black;
+}
+
+.flex {
+  display: flex;
+}
+
+.movieContainer {
+  width: 500px;
+  padding-bottom:40px;
+}
+
+.buttonContainer > div{
+  margin-top: 20px;
+}
+
+.textArea {
+  font-size: 18px;
+  
+}
+
+
+
+
+/* CSS Code for Start Page */
+.space-around {
+  justify-content: space-around;
+}
+.space-between {
+  justify-content: space-between;
+}
+.tokenSaleContainer {
+	 width: 1000px;
+	 background-color: rgb(255, 255, 255);
+   box-shadow: 0 8px 8px rgba(103, 10, 116, 0.5);
+   margin: 0 auto;
+   margin-top: -45px;
+   position: relative;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   top: 50px;
+   
+}
+.tokenSaleLeftSide {
+  width: 500px;
+  border-right: 1px solid rgb(126, 118, 118);
+  height: 100%;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 30px;
+}
+.tokensSold, .Buyer {
+  font-size:18px;
+  color:rgb(27, 27, 27);
+  opacity:0.87;
+  color:black;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px rgb(59,68,75);
+  font-family: 'liberty';
+}
+.totalSuppy {
+ margin-top: 50px;
+ margin-bottom: 15px;
+ font-size:18px;
+ color:black;
+ font-weight: bold;
+ opacity:0.87;
+ text-shadow: 0px 0.1px 1px rgb(59,68,75);
+ font-family: 'liberty';
+ 
+}
+.titleTokenSale {
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(34, 34, 34);
+  width: 500px;
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.87;
+  font-family: 'liberty';
+  
+}
+.tokenSaleEnds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-size: 15px;
+  opacity: 0.87;
+  margin-top: 10px;
+  font-weight: bold;
+  text-shadow: 0px 0.1px 1px rgb(59,68,75);
+  font-family: 'liberty';
+  
+}
+.time {
+  margin-top: 20px;
+  text-shadow: 0px 1px 1px rgb(59,68,75);
+  opacity: 0.87;
+  color:black;
+  font-family: 'liberty';
+}
+.time > div {
+  color: black;
+  opacity: 2.87;
+  font-family: 'liberty';
+}
+.headerTime {
+  color: rgb(19, 19, 19);
+  font-weight: bold;
+  font-size: 25px;
+  opacity: 2.87;
+  font-family: 'liberty';
+  
+}
+.Icons {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.Icons i {
+  font-size: 35px;
+  color: black;
+  opacity: 0.87;
+  text-shadow: 0px 1px 1px rgb(59,68,75);
+  
+}
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+
+
+
+/* CSS Code for About Page */
+.BuyZenta {
+  display: flex;
+  style:left justify;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 30px;
+  opacity: 1.87;
+  margin-top:70px;
+  margin-bottom:10px;
+  text-shadow: 0px 0px 20px rgba(103, 10, 116, 0.5);
+  font-family: 'liberty';
+  
+}
+
+
+
+
+
+/*CSS Code for Container*/
+.BuyZentaContainer {
+  width: 950px;
+  margin: 0 auto;
+  border: 1px solid #CACACA;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgb(51, 204, 255), );
+  box-shadow: 0px 0px 10px rgba(103, 10, 116, 0.5);
+  margin-bottom: 10px;
+  margin-top:10px;
+  padding:20px;
+  color:black;
+}
+.buyCoins {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.amountToBuy {
+  font-weight:auto;
+  color:black;
+  font-size:20px;
+  margin-right: 5px;
+  opacity: 0.87;
+  font-weight: bold;
+  font-family: 'liberty';
+  
+}
+.etherDC, .ZENTA {
+  margin-left:5px;
+  font-size:20px;
+  color:black;
+  font-weight: bold;
+  opacity:0.87;
+  font-family: 'liberty';
+  
+}
+.successfully {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size:20px;
+  width: 300px;
+  margin: 0 auto;
+  background-color:#43A047;
+  margin-top: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'liberty';
+}
+.buttonBuy {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:25px;
+  margin-bottom: 25px;
+  font-family: 'liberty';
+  
+  
+}
+.errorMessage {
+  width: 200px;
+  margin: 0 auto;
+  background-color:rgb(255, 65, 68);
+  margin-top: 25px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'liberty';
+}
+.errorMessage > i {
+  margin-right: 10px;
+  font-size: 20px;
+  
+}
+.loadingText {
+  font-size:20px;
+  color:black;
+  opacity:2.87;
+  font-weight: bold;
+  font-family: 'liberty';
+  
+}
+.loadTextSub {
+  font-size:15px;
+  color:black;
+  opacity:0.87;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  
+}
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.loadingContainer > div {
+  text-align: center;
+}
+.text1 {
+  font-family: 'Nunito';
+  font-weight: 100;
+  font-size: 1rem;
+  letter-spacing: 0.75rem;
+  flex-flow: row;
+  font-size:20px;
+  color:black;
+  opacity:0.87;
+  font-weight: bold;
+  
+}
+.letter {
+  color: ##e71910;
+  text-shadow: 0 0 2rem #00f0ff;
+
+}
+
+
+/* footer */
+.footer {
+  position: flex;
+  left: 0;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-top:50px;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgb(153,0,51), rgb(122, 17, 122));
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight:bold;
+  font-size:12px;
+	display: inline-block;
+	padding: 5px 10px;
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	margin-top: 120px;
+  box-shadow: 0px 0px 20px rgba(103, 10, 116, 0.5);
+}
+

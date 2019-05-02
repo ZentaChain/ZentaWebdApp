@@ -49,7 +49,7 @@ class App extends Component {
             <i class="material-icons">account_box</i>
 
             <div class="myAccountBox">
-              <div class="address"> Address: 0x47d8e19Ad6wf4D9d7c7C5519C6481C3D893d8s </div>
+              <div class="address"> Address:</div>
               <div class="eth"> ETH: 12 </div>
               <div class="zentatoken"> MY ZENTA TOKEN: 1234 </div>
             </div>

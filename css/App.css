@@ -74,8 +74,8 @@ nav {
   color:gray;
 }
 
-.myAccountBox > .address, .eth, .zentatoken, {
-  font-size:12px;
+.myAccountBox > .address, .eth, .zentatoken {
+  font-size: 12px;
   font-family: 'liberty';
 }
 
@@ -151,10 +151,10 @@ nav {
 .tokensSold, .Buyer {
   font-size:18px;
   color:rgb(27, 27, 27);
-  opacity:0.87;
+  opacity:1.87;
   color:black;
   font-weight: bold;
-  text-shadow: 0px 1px 1px rgb(59,68,75);
+  
   font-family: 'liberty';
 }
 .totalSuppy {
@@ -163,15 +163,14 @@ nav {
  font-size:18px;
  color:black;
  font-weight: bold;
- opacity:0.87;
- text-shadow: 0px 0.1px 1px rgb(59,68,75);
+ opacity:1.87;
+ 
  font-family: 'liberty';
  
 }
 .titleTokenSale {
   font-size: 20px;
   font-weight: bold;
-  color:rgb(34, 34, 34);
   width: 500px;
   color:black;
   display: flex;
@@ -190,14 +189,14 @@ nav {
   opacity: 0.87;
   margin-top: 10px;
   font-weight: bold;
-  text-shadow: 0px 0.1px 1px rgb(59,68,75);
+  
   font-family: 'liberty';
   
 }
 .time {
   margin-top: 20px;
   text-shadow: 0px 1px 1px rgb(59,68,75);
-  opacity: 0.87;
+  opacity: 1.87;
   color:black;
   font-family: 'liberty';
 }
@@ -247,7 +246,7 @@ div {
   opacity: 1.87;
   margin-top:70px;
   margin-bottom:10px;
-  text-shadow: 0px 0px 20px rgba(103, 10, 116, 0.5);
+  text-shadow: 0px 0px 20px rgba(87, 87, 87, 0.5);
   font-family: 'liberty';
   
 }
@@ -268,14 +267,14 @@ div {
   padding:20px;
   color:black;
 }
+
 .buyCoins {
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  
 }
+
 .amountToBuy {
   font-weight:auto;
   color:black;
@@ -303,12 +302,12 @@ div {
   font-size:20px;
   width: 300px;
   margin: 0 auto;
-  background-color:#43A047;
+  background-color:rgb(15, 172, 23);
   margin-top: 10px;
   color: white;
   padding: 10px;
   border-radius: 5px;
-  font-family: 'liberty';
+  
 }
 .buttonBuy {
   margin: 0 auto;
@@ -367,7 +366,6 @@ div {
   text-align: center;
 }
 .text1 {
-  font-family: 'Nunito';
   font-weight: 100;
   font-size: 1rem;
   letter-spacing: 0.75rem;
@@ -379,9 +377,9 @@ div {
   
 }
 .letter {
-  color: ##e71910;
-  text-shadow: 0 0 2rem #00f0ff;
-
+  color: #070707;
+  text-shadow: 0 0 2rem #ffffff;
+  font-family: 'bold';
 }
 
 
@@ -398,11 +396,11 @@ div {
   text-decoration: none;
   font-weight:bold;
   font-size:12px;
-  display: inline-block;
-  padding: 5px 10px;
-  font-family: 'Raleway', sans-serif;
-  color:white;
-  margin-top: 120px;
+	display: inline-block;
+	padding: 5px 10px;
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	margin-top: 120px;
   box-shadow: 0px 0px 20px rgba(103, 10, 116, 0.5);
 }
 

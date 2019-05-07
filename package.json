@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.5.1",
     "align-text": "^1.0.2",
+    "bcrypt": "^3.0.6",
     "create-react-app": "^3.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.6.3",
@@ -12,14 +13,15 @@
     "react-native": "^0.59.5",
     "react-scripts": "2.1.1",
     "react-scroll-to-component": "^1.0.2",
-    "video-react": "^0.13.1"
+    "video-react": "^0.13.1",
+    "web3": "^1.0.0-beta.54"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "node node_modules/react-scripts/scripts/start.js",
+  "build": "node node_modules/react-scripts/scripts/build.js",
+  "test": "node node_modules/react-scripts/scripts/test.js",
+  "eject": "node node_modules/react-scripts/scripts/eject.js"
+},
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -28,5 +30,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Harun Kacemer",
+  "license": "ISC"
 }

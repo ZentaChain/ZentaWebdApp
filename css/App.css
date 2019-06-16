@@ -9,8 +9,6 @@ body {
   opacity:1.95;
 }
 
-
-
 nav {
   background-color: rgb(255, 255, 255);
   display:flex;
@@ -24,15 +22,14 @@ nav {
   box-shadow: 0 2px 4px rgba(0,0,0,.5);
   z-index: 1000;
   justify-content: space;
-  
-  
 }
+
 .Whitepaper, .Home, .About {
-	display: inline-block;
-	padding: 10px 10px;
-	font-size: 0,5em;
-	color:white;
-	margin-top: 5px;
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 0,5em;
+  color:white;
+  margin-top: 5px;
   font-family: 'liberty'; 
 
 }
@@ -40,7 +37,6 @@ nav {
 .zentalogo img {
   height: 60px
 }
-
 
 .titleICO {
   display: flex;
@@ -119,8 +115,6 @@ nav {
 }
 
 
-
-
 /* CSS Code for Start Page */
 .space-around {
   justify-content: space-around;
@@ -138,8 +132,8 @@ nav {
    padding-top: 10px;
    padding-bottom: 10px;
    top: 50px;
-   
 }
+
 .tokenSaleLeftSide {
   width: 500px;
   border-right: 1px solid rgb(126, 118, 118);
@@ -148,15 +142,16 @@ nav {
   padding-right: 20px;
   padding-left: 30px;
 }
+
 .tokensSold, .Buyer {
   font-size:18px;
   color:rgb(27, 27, 27);
   opacity:1.87;
   color:black;
-  font-weight: bold;
-  
+  font-weight: bold;  
   font-family: 'liberty';
 }
+
 .totalSuppy {
  margin-top: 50px;
  margin-bottom: 15px;
@@ -164,10 +159,9 @@ nav {
  color:black;
  font-weight: bold;
  opacity:1.87;
- 
  font-family: 'liberty';
- 
 }
+
 .titleTokenSale {
   font-size: 20px;
   font-weight: bold;
@@ -178,8 +172,8 @@ nav {
   justify-content: center;
   opacity: 0.87;
   font-family: 'liberty';
-  
 }
+
 .tokenSaleEnds {
   display: flex;
   align-items: center;
@@ -189,10 +183,9 @@ nav {
   opacity: 0.87;
   margin-top: 10px;
   font-weight: bold;
-  
   font-family: 'liberty';
-  
 }
+
 .time {
   margin-top: 20px;
   text-shadow: 0px 1px 1px rgb(59,68,75);
@@ -200,39 +193,38 @@ nav {
   color:black;
   font-family: 'liberty';
 }
+
 .time > div {
   color: black;
   opacity: 2.87;
   font-family: 'liberty';
 }
+
 .headerTime {
   color: rgb(19, 19, 19);
   font-weight: bold;
   font-size: 25px;
   opacity: 2.87;
   font-family: 'liberty';
-  
 }
+
 .Icons {
   width: 800px;
   margin: 0 auto;
   margin-top: 100px;
 }
+
 .Icons i {
   font-size: 35px;
   color: black;
   opacity: 0.87;
   text-shadow: 0px 1px 1px rgb(59,68,75);
-  
 }
 
 div {
   text-align: justify;
   text-justify: inter-word;
-  
 }
-
-
 
 /* CSS Code for About Page */
 .BuyZenta {
@@ -247,13 +239,8 @@ div {
   margin-top:70px;
   margin-bottom:10px;
   text-shadow: 0px 0px 20px rgba(87, 87, 87, 0.5);
-  font-family: 'liberty';
-  
+  font-family: 'liberty'; 
 }
-
-
-
-
 
 /*CSS Code for Container*/
 .BuyZentaContainer {
@@ -283,8 +270,8 @@ div {
   opacity: 0.87;
   font-weight: bold;
   font-family: 'liberty';
-  
 }
+
 .etherDC, .ZENTA {
   margin-left:5px;
   font-size:20px;
@@ -292,8 +279,8 @@ div {
   font-weight: bold;
   opacity:0.87;
   font-family: 'liberty';
-  
 }
+
 .successfully {
   display: flex;
   align-items: center;
@@ -307,8 +294,8 @@ div {
   color: white;
   padding: 10px;
   border-radius: 5px;
-  
 }
+
 .buttonBuy {
   margin: 0 auto;
   display: flex;
@@ -317,9 +304,8 @@ div {
   margin-top:25px;
   margin-bottom: 25px;
   font-family: 'liberty';
-  
-  
 }
+
 .errorMessage {
   width: 200px;
   margin: 0 auto;
@@ -333,19 +319,20 @@ div {
   justify-content: center;
   font-family: 'liberty';
 }
+
 .errorMessage > i {
   margin-right: 10px;
   font-size: 20px;
-  
 }
+
 .loadingText {
   font-size:20px;
   color:black;
   opacity:2.87;
   font-weight: bold;
   font-family: 'liberty';
-  
 }
+
 .loadTextSub {
   font-size:15px;
   color:black;
@@ -354,17 +341,19 @@ div {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  
 }
+
 .loadingContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
 }
+
 .loadingContainer > div {
   text-align: center;
 }
+
 .text1 {
   font-weight: 100;
   font-size: 1rem;
@@ -374,14 +363,13 @@ div {
   color:black;
   opacity:0.87;
   font-weight: bold;
-  
 }
+
 .letter {
   color: #070707;
   text-shadow: 0 0 2rem #ffffff;
   font-family: 'bold';
 }
-
 
 /* footer */
 .footer {
@@ -396,11 +384,10 @@ div {
   text-decoration: none;
   font-weight:bold;
   font-size:12px;
-	display: inline-block;
-	padding: 5px 10px;
-	font-family: 'Raleway', sans-serif;
-	color:white;
-	margin-top: 120px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  margin-top: 120px;
   box-shadow: 0px 0px 20px rgba(103, 10, 116, 0.5);
 }
-

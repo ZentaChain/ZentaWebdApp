@@ -31,7 +31,6 @@ nav {
   color:white;
   margin-top: 5px;
   font-family: 'liberty'; 
-
 }
 
 .zentalogo img {
@@ -44,13 +43,11 @@ nav {
   text-decoration: none;
   color: rgb(39, 39, 39);
   opacity: 1.9;
-  
 }
 
 .titleICO > i {
   margin-right: 3px;
   font-size: 40px;
-  
 }
 
 .titleICO > div {
@@ -111,7 +108,6 @@ nav {
 
 .textArea {
   font-size: 18px;
-  
 }
 
 
@@ -123,15 +119,15 @@ nav {
   justify-content: space-between;
 }
 .tokenSaleContainer {
-	 width: 1000px;
-	 background-color: rgb(255, 255, 255);
-   box-shadow: 0 8px 8px rgba(103, 10, 116, 0.5);
-   margin: 0 auto;
-   margin-top: -45px;
-   position: relative;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   top: 50px;
+  width: 1000px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 8px rgba(103, 10, 116, 0.5);
+  margin: 0 auto;
+  margin-top: -45px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 50px;
 }
 
 .tokenSaleLeftSide {

@@ -3,7 +3,6 @@ import Button from '@material-ui/core/Button';
 import App from '../App';
 
 class Start extends Component {
-
   render() {
     return (
       <div>
@@ -25,13 +24,12 @@ class Start extends Component {
                   <div class="tokensSold">Tokens Sold: 0</div>
                   <div class="Buyer">Total buyers:<b> 50</b></div>
                 </div>
-                <div class="totalSuppy">4545454 <b>ZENTA</b></div>
-                
+                <div class="totalSuppy">XXXXXXXX<b>ZENTA</b></div>
               </div>
 
               <div class="tokenSaleRightSide">
-                <div class="titleTokenSale">TOKEN SALE IS NOW LIVE</div>
-                <div class="tokenSaleEnds"> TOKEN SALE ENDS IN </div>
+                <div class="titleTokenSale">ZENTA SALE IS NOW LIVE</div>
+                <div class="tokenSaleEnds">ZENTA SALE ENDS IN </div>
                 <div class="time flex space-around">
                   <div>
                     <div class="headerTime" >31</div>
@@ -61,12 +59,10 @@ class Start extends Component {
           <i class="fab fa-twitter"></i>
           <i class="fab fa-reddit-alien"></i>
         </div>
-         
       </div>
 
     );
   }
-
 }
 
 export default Start;

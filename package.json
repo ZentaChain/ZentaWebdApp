@@ -5,7 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.5.1",
     "align-text": "^1.0.2",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "create-react-app": "^3.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.6.3",
